@@ -65,7 +65,7 @@ check test coverage
 
 lengkapi function test berikut untuk meng-cover get cart api
 
-https://github.com/agungperdananto/SimpleCart/blob/3962c0ef17aa258acc8b958d12ef339d775fd412/test/test_routes.py#L19-L21
+https://github.com/Yosuadeni/qa-new/blob/master/.github/workflows/build.yml
 
 dan untuk create factory ditambahkan jg data untuk model cart
 
