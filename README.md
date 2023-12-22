@@ -58,16 +58,16 @@ run test
 
 check test coverage
 
-    pytest --cov=myproj tests/
+    pytest --cov=api test/
 
 
-### Tugas uas 2
-Lihat https://github.com/agungperdananto/SimpleCart/pulls
-untuk contoh check yang gagal dan berhasil.
+## Tugas UAS 
 
-CI di sini belum menghandle pytest dan pytest-cov
+lengkapi function test berikut untuk meng-cover get cart api
 
-tugasnya adalah edit `.github/workflows/build.yml` di branch `dev-test`  supaya CI dapat menghandle pytest dan pytest cov 
-https://github.com/agungperdananto/SimpleCart/blob/dev-test/.github/workflows/build.yml
+https://github.com/Yosuadeni/qa-new/blob/master/.github/workflows/build.yml
 
-lalu buat contoh pull request untuk test yang gagal dan berhasil.
+dan untuk create factory ditambahkan jg data untuk model cart
+
+https://github.com/agungperdananto/SimpleCart/blob/3962c0ef17aa258acc8b958d12ef339d775fd412/test/test_models.py#L35-L52
+
